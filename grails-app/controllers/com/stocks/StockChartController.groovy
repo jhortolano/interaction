@@ -35,6 +35,10 @@ class StockChartController {
 		render Ibex35Getter.getLastQuoteIBEX35();
 	}
 	
+	def index2 (){
+		
+	}
+	
 	def ajaxCallTest(){
 		double currentValue = DataGetter.getCurrentValue()
 		boolean isRed = currentValue<DataGetter.getLastValue()
